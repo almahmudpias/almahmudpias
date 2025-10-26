@@ -22,10 +22,10 @@ I bridge the gap between **code and quality** — turning innovative ideas into 
 | [NSU Online Portal](https://github.com/almahmudpias/NSU-RDS) | Designed workflows for course registration, payments, and role-based access, enhancing usability for thousands of NSU users. | PHP · MySQL · HTML/CSS |
 | [Dhaka Metro Ticketing System](https://github.com/almahmudpias/Metro-Rail-QR-Ticketing-System) | QR-based Metro Rail ticketing platform for online booking, digital ticket generation, and secure payments. | MERN Stack · MongoDB · Node.js |
 | [NSU IT Ticketing System](https://github.com/almahmudpias/NSU_IT_Helpdesk_Ticket) | Automated IT helpdesk ticket lifecycle, including SLA-based prioritization and workflow testing. | PHP · MySQL · Bootstrap |
-| [Hayroo eCommerce](https://github.com/almahmudpias?tab=repositories) | Dynamic eCommerce platform with secure authentication, dashboards, and optimized performance. | React.js · Node.js · MongoDB |
-| Helpdesk Workflow System | Engineered ticket lifecycle logic and notification testing, ensuring data integrity and fast resolution. | PHP · MySQL |
-| Service Marketplace Platform | Collaborated on design and requirement analysis for job posting and bidding modules. | Figma · Documentation |
-| [Software Engineer Salary Prediction Web App](https://github.com/almahmudpias?tab=repositories) | Flask ML app predicting salaries using experience and skills, integrated with GitHub Actions CI/CD. | Flask · Python · GitHub Actions |
+| [Hayroo eCommerce](https://github.com/almahmudpias/Hayroo-Ecommerce) | Dynamic eCommerce platform with secure authentication, dashboards, and optimized performance. | React.js · Node.js · MongoDB |
+| [Helpdesk Workflow System](https://github.com/almahmudpias/Helpdesk-Workflow-System) | Engineered ticket lifecycle logic and notification testing, ensuring data integrity and fast resolution. | PHP · MySQL |
+| [Service Marketplace Platform](https://github.com/almahmudpias/Service-Marketplace-Platform) | Collaborated on design and requirement analysis for job posting and bidding modules. | Figma · Documentation |
+| [Software Engineer Salary Prediction Web App](https://github.com/almahmudpias/Software-Engineer-Salary-Prediction) | Flask ML app predicting salaries using experience and skills, integrated with GitHub Actions CI/CD. | Flask · Python · GitHub Actions |
 | [Sleep Disorder Classification](https://ieeexplore.ieee.org/document/11141316) | **IEEE 2025 Accepted** – Developed Bagging, SVM, and Random Forest models for sleep disorder detection (92.4% accuracy). | Scikit-learn · Pandas |
 | [Used Car Price Prediction](https://ieeexplore.ieee.org/document/11141166) | **IEEE 2025 Accepted** – XGBoost regression model achieving RMSE 0.240 with feature engineering and tuning. | XGBoost · Python |
 
