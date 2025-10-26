@@ -73,7 +73,7 @@ I bridge the gap between **code and quality** — turning innovative ideas into 
 ## 📫 Connect With Me  
 
 🌐 [Portfolio](https://almahmudpias.netlify.app)  
-💼 [LinkedIn](https://linkedin.com/in/abdullahpias)  
+💼 [LinkedIn](https://linkedin.com/in/almahmudpias)  
 📧 **abdullahpias09@gmail.com**
 
 ---
