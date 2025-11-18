@@ -35,10 +35,10 @@ I bridge the gap between **code and quality** — turning innovative ideas into 
 
 | 🔍 Project | 🧠 Description | 🧰 Tools |
 |-------------|----------------|----------|
-| [Testify – Manual Testing Suite](https://github.com/almahmudpias/testify-manual-testing) | Complete manual testing workflow with test cases, bug reports, and documentation. | Jira · Excel |
-| [API Testing Collection](https://github.com/almahmudpias/api-testing-postman) | REST API testing using Postman collections and automated Newman report generation. | Postman · Newman |
-| Automation Testing Framework *(Coming Soon)* | Selenium-based test automation covering login, dashboard, and validation workflows. | Selenium · Python |
-| Bug Tracking & Reporting *(Conceptual)* | Simulated bug lifecycle testing for enterprise applications using Jira and Qase. | Jira · Qase |
+| [E-Commerce Platform - QA Validation (v1.1.2)](https://github.com/almahmudpias/ecommerce-qa-validation) | Complete manual testing workflow with test cases, bug reports, and documentation. Executed 40 test cases (92.5% pass rate), identified 3 critical bugs including checkout 500 error, authentication bypass, and cart regression issues. Managed defect tracking through Jira. | Jira · Excel |
+| [FinTech Payment Gateway - API & Security QA](https://github.com/almahmudpias/) | End-to-end quality assurance for financial transaction platform. Executed 65 API test cases (96% pass rate), performed security testing, JMeter load testing (450 TPS), automated API smoke suite via Newman, detected critical double-charge and JWT expiry bugs. | Postman · Newman · JMeter |
+| [SaaS HR System - End-to-End QA](https://github.com/almahmudpias/) | Comprehensive functional and non-functional validation for enterprise HR application. Executed 58 functional + 20 regression tests, identified payroll miscalculation and RBAC vulnerabilities, conducted UI/UX validation (Figma vs UI), API workflow testing, and UAT checklist. | Jira · Figma |
+| [Testify - Manual Testing Suite](https://github.com/almahmudpias/) | Documented manual testing workflow focusing on test case design and bug reporting. Developed standard operating procedures for test planning and defect tracking, established comprehensive manual testing protocols and validation methodologies. | Jira · Excel |
 
 ---
 
