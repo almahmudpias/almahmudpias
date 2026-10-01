@@ -1,34 +1,26 @@
+# 👋 Hi, I'm Md Abdullah Al Mahmud Pias  
+
+> **Federated & Multimodal Learning Research · Production Systems Engineering**  
+> *I build learning systems and software that keep working when data is isolated, clients are asynchronous, and every contribution has to be verifiable.*
+
+```yaml
+Focus    : Federated & Multimodal Adaptation · Privacy-Preserving Learning
+Status   : PhD Applicant (Fall 2027) · IT Systems Assistant @ North South University
+Papers   : 2 First-Author · 2 Co-Authored · 5 Manuscripts in Pipeline
+Scale    : 500+ Tickets/Day · 5,000+ IPs Managed · 95+ Lighthouse Score
+Security : Row-Level Security (RLS) · 3-Tier RBAC · Hash-Chained Audit Ledgers
+```
 <div align="center">
 
-<h1>Md Abdullah Al Mahmud Pias</h1>
-
-<h3>Federated and multimodal learning research · production systems engineering</h3>
-
-<p>I build learning systems and software that keep working when data is isolated, clients are asynchronous, and every contribution has to be verifiable.</p>
-
-<p><b>PhD applicant · Fall 2027 · federated and multimodal learning</b></p>
-
-![Tickets per day](https://img.shields.io/badge/Tickets_per_day-500%2B-2563EB?style=for-the-badge&labelColor=0F1A2E)
-![IPs managed](https://img.shields.io/badge/IPs_managed-5%2C000%2B-2563EB?style=for-the-badge&labelColor=0F1A2E)
-![Lighthouse](https://img.shields.io/badge/Lighthouse-95%2B-2563EB?style=for-the-badge&labelColor=0F1A2E)
-
-![First-author papers](https://img.shields.io/badge/First--author_papers-2-3DDBD0?style=for-the-badge&labelColor=0F1A2E)
-![Co-authored papers](https://img.shields.io/badge/Co--authored_papers-2-3DDBD0?style=for-the-badge&labelColor=0F1A2E)
-![First-author manuscripts](https://img.shields.io/badge/First--author_manuscripts_in_pipeline-5-3DDBD0?style=for-the-badge&labelColor=0F1A2E)
-![Pipeline status](https://img.shields.io/badge/Pipeline-3_submitted_or_under_review_%C2%B7_2_in_preparation-64748B?style=for-the-badge&labelColor=0F1A2E)
-
-<br/>
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-almahmudpias.netlify.app-0F1A2E?style=for-the-badge)](https://almahmudpias.netlify.app)
-[![Scholar](https://img.shields.io/badge/Google_Scholar-profile-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID)
-[![ORCID](https://img.shields.io/badge/ORCID-iD-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/YOUR-ORCID-ID)
-[![ResearchGate](https://img.shields.io/badge/ResearchGate-profile-00CCBB?style=for-the-badge&logo=researchgate&logoColor=white)](https://www.researchgate.net/profile/YOUR_RG_NAME)
-[![CV](https://img.shields.io/badge/CV-PDF-3DDBD0?style=for-the-badge&labelColor=0F1A2E)](YOUR_CV_URL)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-almahmudpias-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/almahmudpias)
-[![Email](https://img.shields.io/badge/Email-abdullahpias09@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abdullahpias09@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-0F1A2E?style=for-the-badge&logo=googlechrome&logoColor=3DDBD0)](https://almahmudpias.netlify.app)
+[![Scholar](https://img.shields.io/badge/Google_Scholar-0F1A2E?style=for-the-badge&logo=googlescholar&logoColor=4285F4)](https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID)
+[![ORCID](https://img.shields.io/badge/ORCID-0F1A2E?style=for-the-badge&logo=orcid&logoColor=A6CE39)](https://orcid.org/YOUR-ORCID-ID)
+[![ResearchGate](https://img.shields.io/badge/ResearchGate-0F1A2E?style=for-the-badge&logo=researchgate&logoColor=00CCBB)](https://www.researchgate.net/profile/YOUR_RG_NAME)
+[![CV](https://img.shields.io/badge/CV_PDF-0F1A2E?style=for-the-badge&logo=adobeacrobatreader&logoColor=3DDBD0)](YOUR_CV_URL)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0F1A2E?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://linkedin.com/in/almahmudpias)
+[![Email](https://img.shields.io/badge/Email-0F1A2E?style=for-the-badge&logo=gmail&logoColor=EA4335)](mailto:abdullahpias09@gmail.com)
 
 </div>
-
 ---
 
 ## Where to start
