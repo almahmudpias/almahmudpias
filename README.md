@@ -4,11 +4,10 @@
 > *I build learning systems and software that keep working when data is isolated, clients are asynchronous, and every contribution has to be verifiable.*
 
 ```yaml
-Focus    : Federated & Multimodal Adaptation · Privacy-Preserving Learning
-Status   : PhD Applicant (Fall 2027) · IT Systems Assistant @ North South University
-Papers   : 2 First-Author · 2 Co-Authored · 5 Manuscripts in Pipeline
-Scale    : 500+ Tickets/Day · 5,000+ IPs Managed · 95+ Lighthouse Score
-Security : Row-Level Security (RLS) · 3-Tier RBAC · Hash-Chained Audit Ledgers
+Focus    : Federated Adaptation · Privacy-Preserving Learning · Distributed Systems
+Status   : Seeking PhD (Fall 2027) · IT Systems Assistant @ North South University
+Papers   : 2 First-Author · 2 Co-Authored · 5 Pipeline
+Systems  : Idempotency · Row-Level Security · Hash-Chained Ledgers · Distributed Sync
 ```
 <div align="center">
 
