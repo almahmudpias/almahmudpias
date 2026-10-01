@@ -1,15 +1,29 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="Md Abdullah Al Mahmud Pias: federated and multimodal learning research, production systems engineering" width="100%"/>
+<h1>Md Abdullah Al Mahmud Pias</h1>
 
-<img src="assets/stats.svg" alt="500+ tickets per day, 5,000+ IPs managed, 95+ Lighthouse, 4 papers published, 5 first-author manuscripts in the pipeline" width="100%"/>
+<h3>Federated and multimodal learning research · production systems engineering</h3>
+
+<p>I build learning systems and software that keep working when data is isolated, clients are asynchronous, and every contribution has to be verifiable.</p>
+
+<p><b>PhD applicant · Fall 2027 · federated and multimodal learning</b></p>
+
+![Tickets per day](https://img.shields.io/badge/Tickets_per_day-500%2B-2563EB?style=for-the-badge&labelColor=0F1A2E)
+![IPs managed](https://img.shields.io/badge/IPs_managed-5%2C000%2B-2563EB?style=for-the-badge&labelColor=0F1A2E)
+![Lighthouse](https://img.shields.io/badge/Lighthouse-95%2B-2563EB?style=for-the-badge&labelColor=0F1A2E)
+
+![First-author papers](https://img.shields.io/badge/First--author_papers-2-3DDBD0?style=for-the-badge&labelColor=0F1A2E)
+![Co-authored papers](https://img.shields.io/badge/Co--authored_papers-2-3DDBD0?style=for-the-badge&labelColor=0F1A2E)
+![First-author manuscripts](https://img.shields.io/badge/First--author_manuscripts_in_pipeline-5-3DDBD0?style=for-the-badge&labelColor=0F1A2E)
+![Pipeline status](https://img.shields.io/badge/Pipeline-3_submitted_or_under_review_%C2%B7_2_in_preparation-64748B?style=for-the-badge&labelColor=0F1A2E)
 
 <br/>
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-almahmudpias.netlify.app-0F1A2E?style=for-the-badge)](https://almahmudpias.netlify.app)
-[![Scholar](https://img.shields.io/badge/Google_Scholar-profile-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white)](SCHOLAR_URL)
-[![ORCID](https://img.shields.io/badge/ORCID-iD-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](ORCID_URL)
-[![CV](https://img.shields.io/badge/CV-PDF-3DDBD0?style=for-the-badge&labelColor=0F1A2E)](CV_URL)
+[![Scholar](https://img.shields.io/badge/Google_Scholar-profile-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID)
+[![ORCID](https://img.shields.io/badge/ORCID-iD-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/YOUR-ORCID-ID)
+[![ResearchGate](https://img.shields.io/badge/ResearchGate-profile-00CCBB?style=for-the-badge&logo=researchgate&logoColor=white)](https://www.researchgate.net/profile/YOUR_RG_NAME)
+[![CV](https://img.shields.io/badge/CV-PDF-3DDBD0?style=for-the-badge&labelColor=0F1A2E)](YOUR_CV_URL)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-almahmudpias-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/almahmudpias)
 [![Email](https://img.shields.io/badge/Email-abdullahpias09@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abdullahpias09@gmail.com)
 
@@ -21,7 +35,7 @@
 
 | If you are hiring | If you review PhD applications | If you want to collaborate |
 |---|---|---|
-| Start with [Systems Engineering](#systems-engineering). Four live production systems, with architecture diagrams and the numbers they run at. | Start with [Research](#research) and [Publications](#publications). Five first-author manuscripts, one clear thread. | Start with [Open questions](#open-questions-i-am-working-on), then [email me](mailto:abdullahpias09@gmail.com). |
+| Start with [Problems I have solved](#problems-i-have-solved). Each one is a real constraint, the design that handled it, and the result. Then see the [engineering patterns](#engineering-patterns-i-reach-for). | Start with [Research](#research) and [Publications](#publications). Two accepted first-author papers, five first-author manuscripts in the pipeline, one thread: alignment under isolation. | Start with [Open questions](#open-questions-i-am-working-on), then [email me](mailto:abdullahpias09@gmail.com). |
 
 Now: BSc CSE at North South University · IT Systems Assistant in the university's Office of IT · writing up federated and multimodal adaptation work · open to PhD positions and research collaborations.
 
@@ -29,14 +43,14 @@ Now: BSc CSE at North South University · IT Systems Assistant in the university
 
 ## One idea behind both tracks
 
-The systems I run at NSU and the learning problems I study share the same constraints: isolated clients, asynchronous updates, and contributions that must be verifiable.
+The systems I run and the learning problems I study share the same constraints: isolated clients, asynchronous updates, and contributions that must be verifiable.
 
 ```mermaid
 flowchart LR
-  subgraph S["Production systems at NSU"]
-    A["3-tier RBAC and Row-Level Security"]
+  subgraph S["Production and client systems"]
+    A["Multi-tier RBAC and Row-Level Security"]
     B["Independent clients synced by realtime events"]
-    C["Audit triggers and integrity constraints"]
+    C["Audit triggers and append-only ledgers"]
   end
   subgraph R["Federated learning research"]
     D["Client-level data isolation"]
@@ -60,20 +74,31 @@ flowchart LR
 - How little labeled data does a multimodal model need to adapt to a new domain?
 - What does an evaluation protocol need to report so a result can be trusted (split, baselines, ablations)?
 
+### How the work connects
+
+```mermaid
+flowchart LR
+  M["Multimodal alignment<br/>MetaAlign"] --> F["Few-shot adaptation<br/>Fed-GLPF"]
+  F --> X["Cross-domain and federated settings"]
+  M --> U["Feature-level fusion<br/>Crisis response, TriFusionNet"]
+  U --> X
+  X --> V["Evaluation under domain shift"]
+```
+
 ### First-author work
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-**[MetaAlign](REPO_OR_PAPER_URL)**
+**MetaAlign**
 Prototype-centric multimodal alignment for few-shot adaptation.
 *Submitted, FRUCT (40th Open Innovations Association).*
 
 </td>
 <td width="50%" valign="top">
 
-**[Fed-GLPF](REPO_OR_PAPER_URL)**
+**Fed-GLPF**
 Robust cross-domain few-shot diagnosis through hybrid multimodal prototype alignment.
 *In preparation.*
 
@@ -82,14 +107,14 @@ Robust cross-domain few-shot diagnosis through hybrid multimodal prototype align
 <tr>
 <td width="50%" valign="top">
 
-**[TableNet++](REPO_OR_PAPER_URL)**
+**TableNet++**
 Triple-branch table structure recognition.
 *Under review, International Journal on Document Analysis and Recognition.*
 
 </td>
 <td width="50%" valign="top">
 
-**[Crop Analysis with Explainable AI](REPO_OR_PAPER_URL)**
+**Crop Analysis with Explainable AI**
 Crop prediction with machine learning and explanations.
 *Submitted, FRUCT (40th Open Innovations Association).*
 
@@ -105,7 +130,7 @@ Electricity demand prediction with transformer-based multimodal fusion and domai
 </td>
 <td width="50%" valign="top">
 
-**[Crisis Response Prediction](REPO_OR_PAPER_URL)**
+**Crisis Response Prediction**
 Feature-level multimodal fusion for crisis response.
 *In preparation.*
 
@@ -113,13 +138,10 @@ Feature-level multimodal fusion for crisis response.
 </tr>
 </table>
 
-<details>
-<summary><b>Collaborative research</b></summary>
+### Collaborative research
 
-- **[Hands That Speak](https://github.com/almahmudpias/hands-that-speak)**: Bangla Sign Language recognition by late fusion of multimodal deep networks, 95%+ accuracy. Published in Engineering Reports (Wiley, Q2), 2025, as third author. My contribution: YOUR_CONTRIBUTION.
+- **[Hands That Speak](https://github.com/almahmudpias/hands-that-speak)**: Bangla Sign Language recognition by late fusion of multimodal deep networks, 95%+ accuracy. Engineering Reports (Wiley, Q2), 2025, third author.
 - **[Sleep Disorder Classification](https://ieeexplore.ieee.org/document/11141316)**: Bagging, SVM and Random Forest models, 92.4% accuracy. IEEE ICMI 2025, sixth author.
-
-</details>
 
 ---
 
@@ -129,7 +151,7 @@ Feature-level multimodal fusion for crisis response.
 
 | Year | Title | Venue | Author position | Links |
 |---|---|---|---|---|
-| 2025 | Optimizing Used Car Valuation with AI: A Predictive Modeling Approach | IEEE ICMI | **First** | [Paper](https://ieeexplore.ieee.org/abstract/document/11141166/) · [Code](REPO_URL) |
+| 2025 | Optimizing Used Car Valuation with AI: A Predictive Modeling Approach | IEEE ICMI | **First** | [Paper](https://ieeexplore.ieee.org/abstract/document/11141166/) |
 | 2025 | Predictive Modeling and Analysis of Software Engineer Salary Using Machine Learning | Springer LNNS (ETTIS) | **First** | [Paper](https://link.springer.com/chapter/10.1007/978-981-95-0684-2_4) · [Code](https://github.com/almahmudpias/Software-Engineer-Salary-Prediction) |
 | 2025 | Bangla Sign Language Recognition With Multimodal Deep Learning Fusion | Engineering Reports, Wiley (Q2) | Third | [Paper](https://onlinelibrary.wiley.com/doi/abs/10.1002/eng2.70139) · [Code](https://github.com/almahmudpias/hands-that-speak) |
 | 2025 | Sleep Disorder Prediction System Using Machine Learning | IEEE ICMI | Sixth | [Paper](https://ieeexplore.ieee.org/abstract/document/11141316/) |
@@ -141,8 +163,8 @@ Feature-level multimodal fusion for crisis response.
 | MetaAlign: Prototype-Centric Multimodal Alignment for Few-Shot Adaptation | FRUCT (40th Open Innovations Association) | Submitted | [Manuscript](https://drive.google.com/file/d/1J8WmKYmQFkRuH_a7Dj2bpma5NnDzxYkV/view?usp=sharing) |
 | TableNet++: Triple-Branch Table Structure Recognition | IJDAR | Under review | [Manuscript](https://drive.google.com/file/d/13UuxzDm7BJpuJdULB0n8pRLRUi94KzjR/view?usp=drive_link) |
 | Crop Analysis and Prediction Using Machine Learning with Explainable AI | FRUCT (40th Open Innovations Association) | Submitted | [Manuscript](https://drive.google.com/file/d/1qOJGQSLb810iFWZ7ZMqv9LqP6Pg-lMCh/view?usp=drive_link) |
-| Fed-GLPF: Robust Cross-Domain Few-Shot Diagnosis via Hybrid Multimodal Prototype Alignment | to be decided | In preparation | [Draft](https://drive.google.com/file/d/1i3mJ3eDx0ofWN7Ai1HiwEAaW0B9g54tK/view?usp=sharing) |
-| Multi-Modal Fusion Using Feature-Level Aggregation for Crisis Response Prediction | to be decided | In preparation | |
+| Fed-GLPF: Robust Cross-Domain Few-Shot Diagnosis via Hybrid Multimodal Prototype Alignment | To be decided | In preparation | [Draft](https://drive.google.com/file/d/1i3mJ3eDx0ofWN7Ai1HiwEAaW0B9g54tK/view?usp=sharing) |
+| Multi-Modal Fusion Using Feature-Level Aggregation for Crisis Response Prediction | To be decided | In preparation | |
 
 ```mermaid
 timeline
@@ -160,15 +182,16 @@ timeline
 
 ---
 
-## Systems Engineering
+## Problems I have solved
 
-IT Systems Assistant (part-time), Office of IT, North South University, Sept 2025 to present. Each system below is live and in daily use.
+A selection from the [project archive](#project-archive). Each entry follows the same shape: the problem, the constraint that made it hard, what I built, and the result.
 
 ### NSU IT Support Center
 
 `React/Vite` `Node.js` `Express` `Supabase` · **500+ tickets/day, 1,000+ at peak**
 
-A multi-portal helpdesk for students, agents and super admins, with ticket-state management and automated SMTP notifications. Access control is layered: JWT, bcrypt, 3-tier RBAC, token revocation, session expiry, CORS and PostgreSQL Row-Level Security, so student records stay isolated across the whole ticket lifecycle. [Live](LIVE_URL) · [Repo](REPO_URL)
+**Problem:** a university helpdesk where students, agents and admins share one system, and one student must never see another student's records.
+**Built:** a multi-portal helpdesk with ticket-state management and SMTP notifications. Isolation is enforced in layers: JWT, bcrypt, 3-tier RBAC, token revocation, session expiry, CORS and PostgreSQL Row-Level Security, so the database protects data even if an application layer fails.
 
 ```mermaid
 flowchart TB
@@ -184,7 +207,8 @@ flowchart TB
 
 `Node.js` `React` `Android` `Supabase Realtime` `Cloudflare Tunnels` · **50+ tickets/day, 100+ at peak**
 
-Independent clients update at different times, so the platform dispatches, synchronizes and reconciles ticket status across a helpdesk, public monitoring displays and an Android field-engineer app. Mobile notification and acknowledgement flows cut the time from ticket creation to assignment to resolution, and a workstation-support module tracks device intake and service state. Cloudflare Tunnels give controlled internal access without exposing campus endpoints. [Live](LIVE_URL) · [Repo](REPO_URL)
+**Problem:** field engineers, a desk team and public displays all act on the same ticket at different times, and slow assignment hurts resolution time.
+**Built:** a platform that dispatches, synchronizes and reconciles ticket status across a helpdesk, public monitoring displays and an Android field-engineer app. Mobile notification and acknowledgement flows shorten the path from creation to assignment to resolution. A workstation-support module tracks device intake and service state. Cloudflare Tunnels give controlled internal access without exposing campus endpoints.
 
 ```mermaid
 flowchart LR
@@ -198,29 +222,88 @@ flowchart LR
 
 `PostgreSQL` `audit triggers` · **5,000+ IPs · 2,100+ devices · 1,800+ personnel records**
 
-A live IP-management platform. Database-level integrity constraints and PostgreSQL audit triggers keep every record traceable and tamper-evident, and server-side filtered tables keep queries responsive at this size. [Repo](REPO_URL)
+**Problem:** network records at this scale go stale, and nobody can prove who changed what.
+**Built:** a live IP-management platform. Database-level integrity constraints and PostgreSQL audit triggers keep every record traceable and tamper-evident. Server-side filtered tables keep queries responsive at this size.
 
 ### NSU Online Portal
 
 `Next.js` `Stripe` · **95+ Lighthouse under heavy concurrent load**
 
-I led the redesign to server-side rendering and integrated secure Stripe payments. The portal covers course registration, payments and role-based access for NSU users. [Repo](https://github.com/almahmudpias/NSU-RDS)
+**Problem:** course registration brings thousands of students at once, and the original PHP and MySQL portal was not built for that peak.
+**Built:** I led the redesign to server-side rendering and integrated secure Stripe payments, with role-based access for NSU users. [Repo](https://github.com/almahmudpias/NSU-RDS)
 
-### Freelance delivery
+### ExpotextBD ERP
 
-Two full-stack ERP systems, scoped and shipped independently for clients found through freelancing platforms:
+`React 18` `Supabase` `PostgreSQL RLS` `Tailwind` `Vercel` · Client project, proprietary source
 
-- **Ecommerce seller platform:** full order lifecycle, COD settlement, returns, courier integration, variant-level inventory.
-- **Enterprise ERP:** POS, inventory, procurement, multi-stakeholder P&L reporting, RBAC, CI/CD.
+**Problem:** a business with several partners and staff online at once needs POS, inventory, procurement and a profit pipeline where sales staff never see cost or margin, and nobody can quietly rewrite money history.
+**Built:** an ERP covering POS, inventory, purchasing, expenses and a stockholder-aware P&L module. Net profit flows into a percentage split, then personal withdrawals, then a 3-way handover approval with idempotency keys. The key decisions:
 
-Portfolio available on request.
+- **Cost and margin are hidden at the database**, using column-level grants and a `products_public` view for the sales role, not just UI filtering.
+- **Checkout re-derives every price server-side** inside a `SECURITY DEFINER` RPC, so client-side price or discount tampering has no effect.
+- **Audit and handover records are append-only.** A hash chain on the audit log allows offline tamper detection, and the handover ledger has no UPDATE or DELETE for any role, including admin.
+- **Admin access requires TOTP MFA**, and login abuse is limited by rate limits, CAPTCHA and constant-time username lookup.
+
+```mermaid
+flowchart LR
+  J["JWT + TOTP MFA"] --> R["Row-Level Security by role and ownership"]
+  R --> C["Column-level grants<br/>cost and margin hidden"]
+  C --> F["SECURITY DEFINER RPCs<br/>prices re-derived server-side"]
+  F --> L["Append-only audit ledger<br/>hash-chained"]
+```
+
+### Seller ERP for Bangladesh ecommerce sellers
+
+`React 18` `Supabase` `PostgreSQL` `Tailwind` `Vercel` · Client project, proprietary source
+
+**Problem:** sellers take orders from Facebook, WhatsApp and phone, mostly on COD, and run on spreadsheets. Stock double-sells, COD goes untracked, and returns overwrite the original sale, so nobody can say what they actually made this month.
+**Built:** a full operations workspace for orders, inventory, purchases, couriers, returns and finance. The key decisions:
+
+- **Oversell protection:** stock reservation runs inside a database transaction with a PostgreSQL advisory lock and an atomic balance check, backed by an immutable inventory-movement ledger.
+- **Accounting-safe returns:** a return attaches to the original order and never rewrites it. Gross sale, refund and net sales stay separate, and stock changes go through typed movements (`RETURN_RESTOCK`, `RETURN_DAMAGED`, exchange in and out) instead of silent overwrites.
+- **A deterministic order state machine:** every transition is validated and logged with actor and timestamp, across the path from new order to payment received and the exception paths.
+- **Isolated third-party calls:** courier and payment-gateway integrations go through a transactional outbox with retry and backoff, so external latency cannot stall core database transactions.
+- **Zero-trust security:** RLS on every table, server-side role checks, column-level protection against role escalation, TOTP MFA for admins, and provisioned-only accounts.
+
+```mermaid
+stateDiagram-v2
+  [*] --> NEW
+  NEW --> CONFIRMED
+  CONFIRMED --> COURIER_SELECTED
+  COURIER_SELECTED --> READY_FOR_PICKUP
+  READY_FOR_PICKUP --> PICKED_UP
+  PICKED_UP --> DELIVERED
+  DELIVERED --> PAYMENT_RECEIVED
+  PICKED_UP --> FAILED_DELIVERY
+  DELIVERED --> RETURNED
+  NEW --> CANCELLED
+  PAYMENT_RECEIVED --> [*]
+```
+
+*Source for both ERPs is private client work. A walkthrough is available on request.*
+
+---
+
+## Engineering patterns I reach for
+
+The same few ideas recur across the systems above and the research.
+
+| Pattern | The problem it solves | Where I used it |
+|---|---|---|
+| Defense in depth with Row-Level Security | A bug in one layer must not leak another user's data | NSU IT Support Center, ExpotextBD ERP, Seller ERP |
+| Server-side re-derivation of money and stock | Clients cannot be trusted with prices or quantities | ExpotextBD checkout RPC |
+| Append-only ledgers and audit triggers | History must be traceable and corrections visible | NSU IPAM, ExpotextBD, Seller ERP |
+| Advisory locks plus immutable movements | Concurrent writers must not oversell inventory | Seller ERP |
+| Deterministic state machines | Illegal state transitions must be impossible | Seller ERP orders, NSU helpdesk tickets |
+| Realtime sync with reconciliation | Independent clients update at different times | NSU 1400 Helpdesk |
+| Outbox with retry and backoff | Slow external APIs must not stall core transactions | Seller ERP |
+| Evaluation under domain shift | A result is only trustworthy if the protocol is | MetaAlign, Fed-GLPF, TriFusionNet |
 
 ---
 
 ## Project archive
 
-<details open>
-<summary><b>AI and machine learning</b></summary>
+### AI and machine learning
 
 | Project | What it does | Stack |
 |---|---|---|
@@ -230,13 +313,12 @@ Portfolio available on request.
 | [Used Car Price Prediction](https://ieeexplore.ieee.org/document/11141166) | XGBoost regression with feature engineering and tuning, RMSE 0.240 (IEEE 2025) | XGBoost · Python |
 | [Software Engineer Salary Prediction](https://github.com/almahmudpias/Software-Engineer-Salary-Prediction) | Flask app predicting salary from experience and skills, with GitHub Actions CI/CD | Flask · Python · GitHub Actions |
 
-</details>
-
-<details>
-<summary><b>Web platforms and full-stack systems</b></summary>
+### Web platforms and full-stack systems
 
 | Project | What it does | Stack |
 |---|---|---|
+| ExpotextBD ERP | POS, inventory, procurement and stockholder-aware P&L with hardened RLS and MFA (client project) | React · Supabase · Tailwind |
+| Seller ERP | Orders, COD, couriers, returns, inventory locking and finance for ecommerce sellers (client project) | React · Supabase · PostgreSQL |
 | [NSU Online Portal](https://github.com/almahmudpias/NSU-RDS) | Course registration, payments and role-based access for thousands of NSU users | PHP · MySQL, later Next.js · Stripe |
 | [Dhaka Metro Ticketing System](https://github.com/almahmudpias/Metro-Rail-QR-Ticketing-System) | QR-based Metro Rail booking, digital tickets and secure payments | MERN · MongoDB · Node.js |
 | [NSU IT Ticketing System](https://github.com/almahmudpias/NSU_IT_Helpdesk_Ticket) | Automated helpdesk ticket lifecycle with SLA-based prioritization and workflow testing | PHP · MySQL · Bootstrap |
@@ -244,48 +326,41 @@ Portfolio available on request.
 | [Hayroo eCommerce](https://github.com/almahmudpias/Hayroo-Ecommerce) | Ecommerce platform with secure authentication, dashboards and optimized performance | React · Node.js · MongoDB |
 | [Service Marketplace Platform](https://github.com/almahmudpias/Service-Marketplace-Platform) | Design and requirement analysis for job posting and bidding modules | Figma · Documentation |
 
-</details>
-
-<details>
-<summary><b>Quality assurance</b></summary>
+### Quality assurance
 
 Testing is part of how I design systems, and it carries into my ML work as evaluation discipline.
 
 | Project | Scope | Tools |
 |---|---|---|
 | [E-Commerce Platform QA (v1.1.2)](https://github.com/almahmudpias/ecommerce-qa-validation) | 40 test cases, 92.5% pass rate; 3 critical bugs found (checkout 500 error, authentication bypass, cart regression); defects tracked in Jira | Jira · Excel |
-| [FinTech Payment Gateway, API and Security QA](REPO_URL) | 65 API test cases, 96% pass rate; security testing; JMeter load test at 450 TPS; Newman smoke suite; double-charge and JWT-expiry bugs found | Postman · Newman · JMeter |
-| [SaaS HR System, End-to-End QA](REPO_URL) | 58 functional and 20 regression tests; payroll miscalculation and RBAC vulnerabilities found; Figma-vs-UI validation; API workflow tests; UAT checklist | Jira · Figma |
-| [Testify, Manual Testing Suite](REPO_URL) | Test case design, bug reporting, and SOPs for test planning and defect tracking | Jira · Excel |
-
-</details>
+| FinTech Payment Gateway, API and Security QA | 65 API test cases, 96% pass rate; security testing; JMeter load test at 450 TPS; Newman smoke suite; double-charge and JWT-expiry bugs found | Postman · Newman · JMeter |
+| SaaS HR System, End-to-End QA | 58 functional and 20 regression tests; payroll miscalculation and RBAC vulnerabilities found; Figma-vs-UI validation; API workflow tests; UAT checklist | Jira · Figma |
+| Testify, Manual Testing Suite | Test case design, bug reporting, and SOPs for test planning and defect tracking | Jira · Excel |
 
 ---
 
 ## Stack
 
 <p>
-  <img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,js,c,cpp,php&perline=7" alt="Languages and ML frameworks"/>
+  <img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,numpy,pandas,js,c,cpp,php&perline=9" alt="Languages and ML frameworks"/>
 </p>
 <p>
-  <img src="https://skillicons.dev/icons?i=react,nextjs,vite,nodejs,express,flask,django,androidstudio&perline=8" alt="Application frameworks"/>
+  <img src="https://skillicons.dev/icons?i=react,nextjs,vite,tailwind,nodejs,express,flask,django,androidstudio&perline=9" alt="Application frameworks"/>
 </p>
 <p>
-  <img src="https://skillicons.dev/icons?i=postgres,supabase,mongodb,mysql,firebase,docker,aws,cloudflare,githubactions,git&perline=10" alt="Data and infrastructure"/>
+  <img src="https://skillicons.dev/icons?i=postgres,supabase,mongodb,mysql,firebase,docker,aws,cloudflare,vercel,githubactions,git&perline=11" alt="Data and infrastructure"/>
+</p>
+<p>
+  <img src="https://skillicons.dev/icons?i=postman,figma&perline=2" alt="Testing and design tools"/>
 </p>
 
-Testing and tooling: Postman · Newman · JMeter · Selenium · Jira · TestRail · Figma
+**Research tooling:** PyTorch · TensorFlow · Scikit-learn · LaTeX · reproducible evaluation splits
+**Testing and tooling:** Postman · Newman · JMeter · Selenium · Jira · TestRail · Figma
 
 ---
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/almahmudpias/almahmudpias/output/github-snake-dark.svg"/>
-  <img alt="Contribution graph animated as a snake" src="https://raw.githubusercontent.com/almahmudpias/almahmudpias/output/github-snake.svg" width="100%"/>
-</picture>
-
-**Open to PhD positions and research collaborations in federated and multimodal learning.**
-[Email](mailto:abdullahpias09@gmail.com) · [CV](CV_URL) · [Google Scholar](SCHOLAR_URL) · [Portfolio](https://almahmudpias.netlify.app)
+[Email](mailto:abdullahpias09@gmail.com) · [CV](YOUR_CV_URL) · [Google Scholar](https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID) · [ORCID](https://orcid.org/YOUR-ORCID-ID) · [Portfolio](https://almahmudpias.netlify.app)
 
 </div>
