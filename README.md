@@ -12,10 +12,10 @@ Systems  : Idempotency · Row-Level Security · Hash-Chained Ledgers · Distribu
 <div align="center">
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-0F1A2E?style=for-the-badge&logo=googlechrome&logoColor=3DDBD0)](https://almahmudpias.netlify.app)
-[![Scholar](https://img.shields.io/badge/Google_Scholar-0F1A2E?style=for-the-badge&logo=googlescholar&logoColor=4285F4)](https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID)
-[![ORCID](https://img.shields.io/badge/ORCID-0F1A2E?style=for-the-badge&logo=orcid&logoColor=A6CE39)](https://orcid.org/YOUR-ORCID-ID)
+[![Scholar](https://img.shields.io/badge/Google_Scholar-0F1A2E?style=for-the-badge&logo=googlescholar&logoColor=4285F4)](https://scholar.google.com/citations?authuser=1&user=FLzxgCYAAAAJ)
+[![ORCID](https://img.shields.io/badge/ORCID-0F1A2E?style=for-the-badge&logo=orcid&logoColor=A6CE39)](https://orcid.org/0009-0007-9005-5003)
 [![ResearchGate](https://img.shields.io/badge/ResearchGate-0F1A2E?style=for-the-badge&logo=researchgate&logoColor=00CCBB)](https://www.researchgate.net/profile/YOUR_RG_NAME)
-[![CV](https://img.shields.io/badge/CV_PDF-0F1A2E?style=for-the-badge&logo=adobeacrobatreader&logoColor=3DDBD0)](https://drive.google.com/file/d/13UuxzDm7BJpuJdULB0n8pRLRUi94KzjR/view?usp=sharing)
+[![CV](https://img.shields.io/badge/CV_PDF-0F1A2E?style=for-the-badge&logo=adobeacrobatreader&logoColor=3DDBD0)](https://drive.google.com/file/d/1Jq_PrEvfIfz28goiRi6ozCJNqgKUF0a5/view?usp=drive_link)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0F1A2E?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://linkedin.com/in/almahmudpias)
 [![Email](https://img.shields.io/badge/Email-0F1A2E?style=for-the-badge&logo=gmail&logoColor=EA4335)](mailto:abdullahpias09@gmail.com)
 
@@ -131,7 +131,7 @@ Feature-level multimodal fusion for crisis response.
 
 ### Collaborative research
 
-- **[Hands That Speak](https://github.com/almahmudpias/hands-that-speak)**: Bangla Sign Language recognition by late fusion of multimodal deep networks, 95%+ accuracy. Engineering Reports (Wiley, Q2), 2025, third author.
+- **[Hands That Speak](https://github.com/almahmudpias/hands-that-speak)**: Bangla Sign Language recognition by late fusion of multimodal deep networks, 95%+ accuracy. Engineering Reports (Wiley, Q2), 2025, third author. [Paper](https://onlinelibrary.wiley.com/doi/10.1002/eng2.70139)
 - **[Sleep Disorder Classification](https://ieeexplore.ieee.org/document/11141316)**: Bagging, SVM and Random Forest models, 92.4% accuracy. IEEE ICMI 2025, sixth author.
 
 ---
@@ -145,7 +145,7 @@ Feature-level multimodal fusion for crisis response.
 | 2026 | MetaAlign: Prototype-Centric Multimodal Alignment for Few-Shot Adaptation | FRUCT (40th Open Innovations Association) | **First** | [Manuscript](https://drive.google.com/file/d/1J8WmKYmQFkRuH_a7Dj2bpma5NnDzxYkV/view?usp=drive_link) |
 | 2025 | Optimizing Used Car Valuation with AI: A Predictive Modeling Approach | IEEE ICMI | **First** | [Paper](https://ieeexplore.ieee.org/abstract/document/11141166/) |
 | 2025 | Predictive Modeling and Analysis of Software Engineer Salary Using Machine Learning | Springer LNNS (ETTIS) | **First** | [Paper](https://link.springer.com/chapter/10.1007/978-981-95-0684-2_4) · [Code](https://github.com/almahmudpias/Software-Engineer-Salary-Prediction) |
-| 2025 | Bangla Sign Language Recognition With Multimodal Deep Learning Fusion | Engineering Reports, Wiley (Q2) | Third | [Paper](https://onlinelibrary.wiley.com/doi/abs/10.1002/eng2.70139) · [Code](https://github.com/almahmudpias/hands-that-speak) |
+| 2025 | Bangla Sign Language Recognition With Multimodal Deep Learning Fusion | Engineering Reports, Wiley (Q2) | Third | [Paper](https://onlinelibrary.wiley.com/doi/10.1002/eng2.70139) · [Code](https://github.com/almahmudpias/hands-that-speak) |
 | 2025 | Sleep Disorder Prediction System Using Machine Learning | IEEE ICMI | Sixth | [Paper](https://ieeexplore.ieee.org/abstract/document/11141316/) |
 
 ### Submitted, under review, in preparation (first author and lead on all)
@@ -177,7 +177,7 @@ timeline
 
 A selection from the [project archive](#project-archive). Each entry follows the same shape: the problem, the constraint that made it hard, what I built, and the result.
 
-### NSU IT Support Center
+### [NSU IT Support Center](https://github.com/almahmudpias/NSU_IT_Support_Center)
 
 `React/Vite` `Node.js` `Express` `Supabase` · **500+ tickets/day, 1,000+ at peak** · [Repo](https://github.com/almahmudpias/NSU_IT_Support_Center)
 
@@ -194,9 +194,9 @@ flowchart TB
   API --> MAIL["SMTP notifications"]
 ```
 
-### NSU 1400 Helpdesk and Real-Time Monitoring
+### [NSU 1400 Helpdesk and Real-Time Monitoring](https://github.com/almahmudpias/nsu_helpdesk_1400)
 
-`Node.js` `React` `Android` `Supabase Realtime` `Cloudflare Tunnels` · **50+ tickets/day, 100+ at peak**
+`Node.js` `React` `Android` `Supabase Realtime` `Cloudflare Tunnels` · **50+ tickets/day, 100+ at peak** · [Repo](https://github.com/almahmudpias/nsu_helpdesk_1400)
 
 **Problem:** field engineers, a desk team and public displays all act on the same ticket at different times, and slow assignment hurts resolution time.
 **Built:** a platform that dispatches, synchronizes and reconciles ticket status across a helpdesk, public monitoring displays and an Android field-engineer app. Mobile notification and acknowledgement flows shorten the path from creation to assignment to resolution. A workstation-support module tracks device intake and service state. Cloudflare Tunnels give controlled internal access without exposing campus endpoints.
@@ -209,14 +209,14 @@ flowchart LR
   T["Cloudflare Tunnel"] -->|"controlled internal access"| H
 ```
 
-### NSU Enterprise IPAM
+### [NSU Enterprise IPAM](https://github.com/almahmudpias/NSU-Enterprise-IPAM)
 
 `PostgreSQL` `audit triggers` · **5,000+ IPs · 2,100+ devices · 1,800+ personnel records** · [Repo](http://github.com/almahmudpias/NSU-Enterprise-IPAM)
 
 **Problem:** network records at this scale go stale, and nobody can prove who changed what.
 **Built:** a live IP-management platform. Database-level integrity constraints and PostgreSQL audit triggers keep every record traceable and tamper-evident. Server-side filtered tables keep queries responsive at this size.
 
-### NSU Online Portal
+### [NSU Online Portal](https://github.com/almahmudpias/NSU-RDS)
 
 `Next.js` `Stripe` · **95+ Lighthouse under heavy concurrent load**
 
@@ -352,6 +352,6 @@ Testing is part of how I design systems, and it carries into my ML work as evalu
 
 <div align="center">
 
-[Email](mailto:abdullahpias09@gmail.com) · [CV](https://drive.google.com/file/d/13UuxzDm7BJpuJdULB0n8pRLRUi94KzjR/view?usp=sharing) · [Google Scholar](https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID) · [ORCID](https://orcid.org/YOUR-ORCID-ID) · [Portfolio](https://almahmudpias.netlify.app)
+[Email](mailto:abdullahpias09@gmail.com) · [CV](https://drive.google.com/file/d/1Jq_PrEvfIfz28goiRi6ozCJNqgKUF0a5/view?usp=drive_link) · [Google Scholar](https://scholar.google.com/citations?authuser=1&user=FLzxgCYAAAAJ) · [ORCID](https://orcid.org/0009-0007-9005-5003) · [Portfolio](https://almahmudpias.netlify.app)
 
 </div>
