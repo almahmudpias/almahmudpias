@@ -6,7 +6,7 @@
 ```yaml
 Focus    : Federated Adaptation · Privacy-Preserving Learning · Distributed Systems
 Status   : Seeking PhD (Fall 2027) · IT Systems Assistant @ North South University
-Papers   : 2 First-Author · 2 Co-Authored · 5 Pipeline
+Papers   : 3 First-Author · 2 Co-Authored · 4 Pipeline
 Systems  : Idempotency · Row-Level Security · Hash-Chained Ledgers · Distributed Sync
 ```
 <div align="center">
@@ -15,7 +15,7 @@ Systems  : Idempotency · Row-Level Security · Hash-Chained Ledgers · Distribu
 [![Scholar](https://img.shields.io/badge/Google_Scholar-0F1A2E?style=for-the-badge&logo=googlescholar&logoColor=4285F4)](https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID)
 [![ORCID](https://img.shields.io/badge/ORCID-0F1A2E?style=for-the-badge&logo=orcid&logoColor=A6CE39)](https://orcid.org/YOUR-ORCID-ID)
 [![ResearchGate](https://img.shields.io/badge/ResearchGate-0F1A2E?style=for-the-badge&logo=researchgate&logoColor=00CCBB)](https://www.researchgate.net/profile/YOUR_RG_NAME)
-[![CV](https://img.shields.io/badge/CV_PDF-0F1A2E?style=for-the-badge&logo=adobeacrobatreader&logoColor=3DDBD0)](YOUR_CV_URL)
+[![CV](https://img.shields.io/badge/CV_PDF-0F1A2E?style=for-the-badge&logo=adobeacrobatreader&logoColor=3DDBD0)](https://drive.google.com/file/d/13UuxzDm7BJpuJdULB0n8pRLRUi94KzjR/view?usp=sharing)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0F1A2E?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://linkedin.com/in/almahmudpias)
 [![Email](https://img.shields.io/badge/Email-0F1A2E?style=for-the-badge&logo=gmail&logoColor=EA4335)](mailto:abdullahpias09@gmail.com)
 
@@ -26,7 +26,7 @@ Systems  : Idempotency · Row-Level Security · Hash-Chained Ledgers · Distribu
 
 | If you are hiring | If you review PhD applications | If you want to collaborate |
 |---|---|---|
-| Start with [Problems I have solved](#problems-i-have-solved). Each one is a real constraint, the design that handled it, and the result. Then see the [engineering patterns](#engineering-patterns-i-reach-for). | Start with [Research](#research) and [Publications](#publications). Two accepted first-author papers, five first-author manuscripts in the pipeline, one thread: alignment under isolation. | Start with [Open questions](#open-questions-i-am-working-on), then [email me](mailto:abdullahpias09@gmail.com). |
+| Start with [Problems I have solved](#problems-i-have-solved). Each one is a real constraint, the design that handled it, and the result. Then see the [engineering patterns](#engineering-patterns-i-reach-for). | Start with [Research](#research) and [Publications](#publications). Three accepted first-author papers, four first-author manuscripts in the pipeline, one thread: alignment under isolation. | Start with [Open questions](#open-questions-i-am-working-on), then [email me](mailto:abdullahpias09@gmail.com). |
 
 Now: BSc CSE at North South University · IT Systems Assistant in the university's Office of IT · writing up federated and multimodal adaptation work · open to PhD positions and research collaborations.
 
@@ -82,14 +82,14 @@ flowchart LR
 <tr>
 <td width="50%" valign="top">
 
-**MetaAlign**
+**[MetaAlign](https://drive.google.com/file/d/1J8WmKYmQFkRuH_a7Dj2bpma5NnDzxYkV/view?usp=drive_link)**
 Prototype-centric multimodal alignment for few-shot adaptation.
-*Submitted, FRUCT (40th Open Innovations Association).*
+*Accepted, FRUCT (40th Open Innovations Association).*
 
 </td>
 <td width="50%" valign="top">
 
-**Fed-GLPF**
+**[Fed-GLPF](https://drive.google.com/file/d/1Tz8AV4cob7PjlK7ot0pbgwn5pVezEp47/view?usp=drive_link)**
 Robust cross-domain few-shot diagnosis through hybrid multimodal prototype alignment.
 *In preparation.*
 
@@ -98,14 +98,14 @@ Robust cross-domain few-shot diagnosis through hybrid multimodal prototype align
 <tr>
 <td width="50%" valign="top">
 
-**TableNet++**
+**[TableNet++](https://drive.google.com/file/d/13UuxzDm7BJpuJdULB0n8pRLRUi94KzjR/view?usp=drive_link)**
 Triple-branch table structure recognition.
 *Under review, International Journal on Document Analysis and Recognition.*
 
 </td>
 <td width="50%" valign="top">
 
-**Crop Analysis with Explainable AI**
+**[Crop Analysis with Explainable AI](https://drive.google.com/file/d/1qOJGQSLb810iFWZ7ZMqv9LqP6Pg-lMCh/view?usp=drive_link)**
 Crop prediction with machine learning and explanations.
 *Submitted, FRUCT (40th Open Innovations Association).*
 
@@ -142,6 +142,7 @@ Feature-level multimodal fusion for crisis response.
 
 | Year | Title | Venue | Author position | Links |
 |---|---|---|---|---|
+| 2026 | MetaAlign: Prototype-Centric Multimodal Alignment for Few-Shot Adaptation | FRUCT (40th Open Innovations Association) | **First** | [Manuscript](https://drive.google.com/file/d/1J8WmKYmQFkRuH_a7Dj2bpma5NnDzxYkV/view?usp=drive_link) |
 | 2025 | Optimizing Used Car Valuation with AI: A Predictive Modeling Approach | IEEE ICMI | **First** | [Paper](https://ieeexplore.ieee.org/abstract/document/11141166/) |
 | 2025 | Predictive Modeling and Analysis of Software Engineer Salary Using Machine Learning | Springer LNNS (ETTIS) | **First** | [Paper](https://link.springer.com/chapter/10.1007/978-981-95-0684-2_4) · [Code](https://github.com/almahmudpias/Software-Engineer-Salary-Prediction) |
 | 2025 | Bangla Sign Language Recognition With Multimodal Deep Learning Fusion | Engineering Reports, Wiley (Q2) | Third | [Paper](https://onlinelibrary.wiley.com/doi/abs/10.1002/eng2.70139) · [Code](https://github.com/almahmudpias/hands-that-speak) |
@@ -151,10 +152,9 @@ Feature-level multimodal fusion for crisis response.
 
 | Title | Venue | Status | Link |
 |---|---|---|---|
-| MetaAlign: Prototype-Centric Multimodal Alignment for Few-Shot Adaptation | FRUCT (40th Open Innovations Association) | Submitted | [Manuscript](https://drive.google.com/file/d/1J8WmKYmQFkRuH_a7Dj2bpma5NnDzxYkV/view?usp=sharing) |
 | TableNet++: Triple-Branch Table Structure Recognition | IJDAR | Under review | [Manuscript](https://drive.google.com/file/d/13UuxzDm7BJpuJdULB0n8pRLRUi94KzjR/view?usp=drive_link) |
 | Crop Analysis and Prediction Using Machine Learning with Explainable AI | FRUCT (40th Open Innovations Association) | Submitted | [Manuscript](https://drive.google.com/file/d/1qOJGQSLb810iFWZ7ZMqv9LqP6Pg-lMCh/view?usp=drive_link) |
-| Fed-GLPF: Robust Cross-Domain Few-Shot Diagnosis via Hybrid Multimodal Prototype Alignment | To be decided | In preparation | [Draft](https://drive.google.com/file/d/1i3mJ3eDx0ofWN7Ai1HiwEAaW0B9g54tK/view?usp=sharing) |
+| Fed-GLPF: Robust Cross-Domain Few-Shot Diagnosis via Hybrid Multimodal Prototype Alignment | To be decided | In preparation | [Draft](https://drive.google.com/file/d/1Tz8AV4cob7PjlK7ot0pbgwn5pVezEp47/view?usp=drive_link) |
 | Multi-Modal Fusion Using Feature-Level Aggregation for Crisis Response Prediction | To be decided | In preparation | |
 
 ```mermaid
@@ -164,8 +164,8 @@ timeline
          : Used car valuation - IEEE ICMI - first author
          : Salary prediction - Springer LNNS - first author
          : Bangla sign language fusion - Wiley Q2 - third author
-    Pipeline : MetaAlign - submitted
-             : Crop analysis with XAI - submitted
+    2026 : MetaAlign - FRUCT - first author - accepted
+    Pipeline : Crop analysis with XAI - submitted
              : TableNet++ - under review
              : Fed-GLPF - in preparation
              : Crisis response fusion - in preparation
@@ -179,7 +179,7 @@ A selection from the [project archive](#project-archive). Each entry follows the
 
 ### NSU IT Support Center
 
-`React/Vite` `Node.js` `Express` `Supabase` · **500+ tickets/day, 1,000+ at peak**
+`React/Vite` `Node.js` `Express` `Supabase` · **500+ tickets/day, 1,000+ at peak** · [Repo](https://github.com/almahmudpias/NSU_IT_Support_Center)
 
 **Problem:** a university helpdesk where students, agents and admins share one system, and one student must never see another student's records.
 **Built:** a multi-portal helpdesk with ticket-state management and SMTP notifications. Isolation is enforced in layers: JWT, bcrypt, 3-tier RBAC, token revocation, session expiry, CORS and PostgreSQL Row-Level Security, so the database protects data even if an application layer fails.
@@ -211,7 +211,7 @@ flowchart LR
 
 ### NSU Enterprise IPAM
 
-`PostgreSQL` `audit triggers` · **5,000+ IPs · 2,100+ devices · 1,800+ personnel records**
+`PostgreSQL` `audit triggers` · **5,000+ IPs · 2,100+ devices · 1,800+ personnel records** · [Repo](http://github.com/almahmudpias/NSU-Enterprise-IPAM)
 
 **Problem:** network records at this scale go stale, and nobody can prove who changed what.
 **Built:** a live IP-management platform. Database-level integrity constraints and PostgreSQL audit triggers keep every record traceable and tamper-evident. Server-side filtered tables keep queries responsive at this size.
@@ -312,7 +312,7 @@ The same few ideas recur across the systems above and the research.
 | Seller ERP | Orders, COD, couriers, returns, inventory locking and finance for ecommerce sellers (client project) | React · Supabase · PostgreSQL |
 | [NSU Online Portal](https://github.com/almahmudpias/NSU-RDS) | Course registration, payments and role-based access for thousands of NSU users | PHP · MySQL, later Next.js · Stripe |
 | [Dhaka Metro Ticketing System](https://github.com/almahmudpias/Metro-Rail-QR-Ticketing-System) | QR-based Metro Rail booking, digital tickets and secure payments | MERN · MongoDB · Node.js |
-| [NSU IT Ticketing System](https://github.com/almahmudpias/NSU_IT_Helpdesk_Ticket) | Automated helpdesk ticket lifecycle with SLA-based prioritization and workflow testing | PHP · MySQL · Bootstrap |
+| [NSU IT Ticketing System](https://github.com/almahmudpias/IT_Ticketing_System) | Automated helpdesk ticket lifecycle with SLA-based prioritization and workflow testing | PHP · MySQL · Bootstrap |
 | [Helpdesk Workflow System](https://github.com/almahmudpias/Helpdesk-Workflow-System) | Ticket lifecycle logic and notification testing for data integrity and fast resolution | PHP · MySQL |
 | [Hayroo eCommerce](https://github.com/almahmudpias/Hayroo-Ecommerce) | Ecommerce platform with secure authentication, dashboards and optimized performance | React · Node.js · MongoDB |
 | [Service Marketplace Platform](https://github.com/almahmudpias/Service-Marketplace-Platform) | Design and requirement analysis for job posting and bidding modules | Figma · Documentation |
@@ -352,6 +352,6 @@ Testing is part of how I design systems, and it carries into my ML work as evalu
 
 <div align="center">
 
-[Email](mailto:abdullahpias09@gmail.com) · [CV](YOUR_CV_URL) · [Google Scholar](https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID) · [ORCID](https://orcid.org/YOUR-ORCID-ID) · [Portfolio](https://almahmudpias.netlify.app)
+[Email](mailto:abdullahpias09@gmail.com) · [CV](https://drive.google.com/file/d/13UuxzDm7BJpuJdULB0n8pRLRUi94KzjR/view?usp=sharing) · [Google Scholar](https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID) · [ORCID](https://orcid.org/YOUR-ORCID-ID) · [Portfolio](https://almahmudpias.netlify.app)
 
 </div>
