@@ -20,7 +20,6 @@ Systems  : Idempotency · Row-Level Security · Hash-Chained Ledgers · Distribu
 [![Email](https://img.shields.io/badge/Email-0F1A2E?style=for-the-badge&logo=gmail&logoColor=EA4335)](mailto:abdullahpias09@gmail.com)
 
 </div>
----
 
 ## Where to start
 
