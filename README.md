@@ -20,6 +20,7 @@ Systems  : Idempotency · Row-Level Security · Hash-Chained Ledgers · Distribu
 [![Email](https://img.shields.io/badge/Email-0F1A2E?style=for-the-badge&logo=gmail&logoColor=EA4335)](mailto:abdullahpias09@gmail.com)
 
 </div>
+---
 
 ## Where to start
 
@@ -214,6 +215,24 @@ flowchart LR
 
 **Problem:** network records at this scale go stale, and nobody can prove who changed what.
 **Built:** a live IP-management platform. Database-level integrity constraints and PostgreSQL audit triggers keep every record traceable and tamper-evident. Server-side filtered tables keep queries responsive at this size.
+
+```mermaid
+flowchart LR
+  subgraph U["NSU IT users"]
+    U1["Super Admin"]
+    U2["Network Administrator"]
+    U3["IT Officer"]
+  end
+  U --> APP["Next.js + TypeScript UI<br/>Zod validation, server-side filtered tables"]
+  APP --> AUTH["Supabase Auth<br/>3-tier RBAC"]
+  AUTH --> RLS["Row-Level Security"]
+  RLS --> DB[("PostgreSQL<br/>unique IP and MAC constraints,<br/>referential integrity")]
+  DB --> M1["IPs, subnets, VLANs"]
+  DB --> M2["Devices, printers, IP phones"]
+  DB --> M3["Users, departments,<br/>buildings, rooms"]
+  DB --> TR["Audit triggers"]
+  TR --> LOG[("Audit log<br/>who, what, previous and new value, when")]
+```
 
 ### [NSU Online Portal](https://github.com/almahmudpias/NSU-RDS)
 
