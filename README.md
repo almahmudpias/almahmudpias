@@ -1,20 +1,19 @@
 # 👋 Hi, I'm Md Abdullah Al Mahmud Pias  
 
-> **Federated & Multimodal Learning Research · Production Systems Engineering**  
+> **Federated & Multimodal Learning Research · Production Systems Engineering · Open to engineering and research opportunities**  
 > *I build learning systems and software that keep working when data is isolated, clients are asynchronous, and every contribution has to be verifiable.*
 
 ```yaml
 Focus    : Federated Adaptation · Privacy-Preserving Learning · Distributed Systems
-Status   : Seeking PhD (Fall 2027) · IT Systems Assistant @ North South University
+Status   : IT Systems Assistant @ North South University · Open to engineering and research roles
 Papers   : 3 First-Author · 2 Co-Authored · 4 Pipeline
 Systems  : Idempotency · Row-Level Security · Hash-Chained Ledgers · Distributed Sync
 ```
 <div align="center">
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-0F1A2E?style=for-the-badge&logo=googlechrome&logoColor=3DDBD0)](https://almahmudpias.netlify.app)
-[![Scholar](https://img.shields.io/badge/Google_Scholar-0F1A2E?style=for-the-badge&logo=googlescholar&logoColor=4285F4)](https://scholar.google.com/citations?authuser=1&user=FLzxgCYAAAAJ)
+[![Scholar](https://img.shields.io/badge/Google_Scholar-0F1A2E?style=for-the-badge&logo=googlescholar&logoColor=4285F4)](https://scholar.google.com/citations?user=FLzxgCYAAAAJ)
 [![ORCID](https://img.shields.io/badge/ORCID-0F1A2E?style=for-the-badge&logo=orcid&logoColor=A6CE39)](https://orcid.org/0009-0007-9005-5003)
-[![ResearchGate](https://img.shields.io/badge/ResearchGate-0F1A2E?style=for-the-badge&logo=researchgate&logoColor=00CCBB)](https://www.researchgate.net/profile/YOUR_RG_NAME)
 [![CV](https://img.shields.io/badge/CV_PDF-0F1A2E?style=for-the-badge&logo=adobeacrobatreader&logoColor=3DDBD0)](https://drive.google.com/file/d/1Jq_PrEvfIfz28goiRi6ozCJNqgKUF0a5/view?usp=drive_link)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0F1A2E?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://linkedin.com/in/almahmudpias)
 [![Email](https://img.shields.io/badge/Email-0F1A2E?style=for-the-badge&logo=gmail&logoColor=EA4335)](mailto:abdullahpias09@gmail.com)
@@ -23,11 +22,11 @@ Systems  : Idempotency · Row-Level Security · Hash-Chained Ledgers · Distribu
 
 ## Where to start
 
-| If you are hiring | If you review PhD applications | If you want to collaborate |
-|---|---|---|
-| Start with [Problems I have solved](#problems-i-have-solved). Each one is a real constraint, the design that handled it, and the result. Then see the [engineering patterns](#engineering-patterns-i-reach-for). | Start with [Research](#research) and [Publications](#publications). Three accepted first-author papers, four first-author manuscripts in the pipeline, one thread: alignment under isolation. | Start with [Open questions](#open-questions-i-am-working-on), then [email me](mailto:abdullahpias09@gmail.com). |
+- **Engineering roles** → [Problems I have solved](#problems-i-have-solved): real constraints, the design that handled them, and the systems in production.
+- **Research and graduate programs** → [Research](#research) and [Publications](#publications): MetaAlign (accepted, FRUCT 2026) and the few-shot adaptation work behind it.
+- **Collaboration** → [Open questions](#open-questions-i-am-working-on), then [email me](mailto:abdullahpias09@gmail.com).
 
-Now: BSc CSE at North South University · IT Systems Assistant in the university's Office of IT · writing up federated and multimodal adaptation work · open to PhD positions and research collaborations.
+Now: BSc CSE at North South University · IT Systems Assistant in the university's Office of IT · writing up federated and multimodal adaptation work · open to engineering and research opportunities and collaborations.
 
 ---
 
@@ -137,11 +136,11 @@ Feature-level multimodal fusion for crisis response.
 
 ## Publications
 
-### Published
+### Published and accepted
 
 | Year | Title | Venue | Author position | Links |
 |---|---|---|---|---|
-| 2026 | MetaAlign: Prototype-Centric Multimodal Alignment for Few-Shot Adaptation | FRUCT (40th Open Innovations Association) | **First** | [Manuscript](https://drive.google.com/file/d/1J8WmKYmQFkRuH_a7Dj2bpma5NnDzxYkV/view?usp=drive_link) |
+| 2026 | MetaAlign: Prototype-Centric Multimodal Alignment for Few-Shot Adaptation (accepted) | FRUCT (40th Open Innovations Association) | **First** | [Manuscript](https://drive.google.com/file/d/1J8WmKYmQFkRuH_a7Dj2bpma5NnDzxYkV/view?usp=drive_link) |
 | 2025 | Optimizing Used Car Valuation with AI: A Predictive Modeling Approach | IEEE ICMI | **First** | [Paper](https://ieeexplore.ieee.org/abstract/document/11141166/) |
 | 2025 | Predictive Modeling and Analysis of Software Engineer Salary Using Machine Learning | Springer LNNS (ETTIS) | **First** | [Paper](https://link.springer.com/chapter/10.1007/978-981-95-0684-2_4) · [Code](https://github.com/almahmudpias/Software-Engineer-Salary-Prediction) |
 | 2025 | Bangla Sign Language Recognition With Multimodal Deep Learning Fusion | Engineering Reports, Wiley (Q2) | Third | [Paper](https://onlinelibrary.wiley.com/doi/10.1002/eng2.70139) · [Code](https://github.com/almahmudpias/hands-that-speak) |
@@ -215,7 +214,7 @@ flowchart LR
 
 ### [NSU Enterprise IPAM](https://github.com/almahmudpias/NSU-Enterprise-IPAM)
 
-`PostgreSQL` `audit triggers` · **5,000+ IPs · 2,100+ devices · 1,800+ personnel records** · [Repo](http://github.com/almahmudpias/NSU-Enterprise-IPAM)
+`PostgreSQL` `audit triggers` · **5,000+ IPs · 2,100+ devices · 1,800+ personnel records** · [Repo](https://github.com/almahmudpias/NSU-Enterprise-IPAM)
 
 **Problem:** network records at this scale go stale, and nobody can prove who changed what.
 **Built:** a live IP-management platform. Database-level integrity constraints and PostgreSQL audit triggers keep every record traceable and tamper-evident. Server-side filtered tables keep queries responsive at this size.
@@ -375,6 +374,6 @@ Testing is part of how I design systems, and it carries into my ML work as evalu
 
 <div align="center">
 
-[Email](mailto:abdullahpias09@gmail.com) · [CV](https://drive.google.com/file/d/1Jq_PrEvfIfz28goiRi6ozCJNqgKUF0a5/view?usp=drive_link) · [Google Scholar](https://scholar.google.com/citations?authuser=1&user=FLzxgCYAAAAJ) · [ORCID](https://orcid.org/0009-0007-9005-5003) · [Portfolio](https://almahmudpias.netlify.app)
+[Email](mailto:abdullahpias09@gmail.com) · [CV](https://drive.google.com/file/d/1Jq_PrEvfIfz28goiRi6ozCJNqgKUF0a5/view?usp=drive_link) · [Google Scholar](https://scholar.google.com/citations?user=FLzxgCYAAAAJ) · [ORCID](https://orcid.org/0009-0007-9005-5003) · [Portfolio](https://almahmudpias.netlify.app)
 
 </div>
