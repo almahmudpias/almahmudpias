@@ -23,7 +23,7 @@ Systems  : Idempotency · Row-Level Security · Hash-Chained Ledgers · Distribu
 ## Where to start
 
 - **Engineering roles** → [Problems I have solved](#problems-i-have-solved): real constraints, the design that handled them, and the systems in production.
-- **Research , Ongoing and Recent Updated Work** → [Research](#research) and [Publications](#publications): MetaAlign (accepted, FRUCT 2026) and the few-shot adaptation work behind it.
+-  **Research & recent work** → [Research](#research) and [Publications](#publications): MetaAlign (accepted, FRUCT 2026) and the few-shot adaptation work behind it.
 - **Collaboration** → [Open questions](#open-questions-i-am-working-on), then [email me](mailto:abdullahpias09@gmail.com).
 
 > **CSE Graduate, North South University** · **IT Systems Engineer, Office of IT** · **Researcher in Federated & Multimodal Learning**.
@@ -354,7 +354,7 @@ Testing is part of how I design systems, and it carries into my ML work as evalu
 ## Stack
 
 <p>
-  <img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,numpy,pandas,js,c,cpp,php&perline=9" alt="Languages and ML frameworks"/>
+  <img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,numpy,pandas,js,ts,c,cpp,php&perline=10" alt="Languages and ML frameworks"/>
 </p>
 <p>
   <img src="https://skillicons.dev/icons?i=react,nextjs,vite,tailwind,nodejs,express,flask,django,androidstudio&perline=9" alt="Application frameworks"/>
@@ -366,7 +366,7 @@ Testing is part of how I design systems, and it carries into my ML work as evalu
   <img src="https://skillicons.dev/icons?i=postman,figma&perline=2" alt="Testing and design tools"/>
 </p>
 
-**Research tooling:** PyTorch · TensorFlow · Scikit-learn · LaTeX · reproducible evaluation splits
+**Research tooling:** PyTorch · TensorFlow · Scikit-learn · LaTeX · reproducible evaluation splits  
 **Testing and tooling:** Postman · Newman · JMeter · Selenium · Jira · TestRail · Figma
 
 ---
