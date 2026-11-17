@@ -193,18 +193,23 @@ flowchart TB
   API --> MAIL["SMTP notifications"]
 ```
 
-### [NSU 1400 Helpdesk and Real-Time Monitoring](https://github.com/almahmudpias/nsu_helpdesk_1400)
+### [NSU IT Support Center Enterprise Platform](https://github.com/almahmudpias/NSU-IT-Support-Center-Enterprise-Campus-IT-Operations-Platform)
 
-`Node.js` `React` `Android` `Supabase Realtime` `Cloudflare Tunnels` · **50+ tickets/day, 100+ at peak** · [Repo](https://github.com/almahmudpias/nsu_helpdesk_1400)
+`React 19` `Node.js` `Express 5` `React Native` `Supabase Realtime` `Firebase FCM` `Cloudflare Tunnels` `PM2` · **50+ tickets/day, 100+ at peak** · [Repo](https://github.com/almahmudpias/NSU-IT-Support-Center-Enterprise-Campus-IT-Operations-Platform)
 
-**Problem:** field engineers, a desk team and public displays all act on the same ticket at different times, and slow assignment hurts resolution time.
-**Built:** a platform that dispatches, synchronizes and reconciles ticket status across a helpdesk, public monitoring displays and an Android field-engineer app. Mobile notification and acknowledgement flows shorten the path from creation to assignment to resolution. A workstation-support module tracks device intake and service state. Cloudflare Tunnels give controlled internal access without exposing campus endpoints.
+**Problem:** field engineers, a desk team, a hardware lab and public displays all act on the same ticket at different times, engineers lose signal between buildings, and slow assignment hurts resolution time.
+**Built:** an end-to-end campus IT operations platform that dispatches, synchronizes and reconciles ticket status across a helpdesk web portal, public monitoring displays with a walk-in queue, and an offline-capable Android field-engineer app that queues status changes and notes and syncs when the network returns. Mobile push and acknowledgement flows shorten the path from creation to assignment to resolution, and SLA timers escalate stale tickets automatically. A workstation and hardware-lab module tracks device intake and service state, and a hardware transition cannot be committed without device type, brand and asset tag. A persistent asset registry with QR labels keeps repair history across tickets, and events run through an approval workflow before personalized assignment emails go out. Access control is enforced in both the API middleware and the route guards, backed by short-lived JWTs with rotating refresh tokens, TOTP MFA for privileged roles, and an append-only audit log. Cloudflare Tunnels give controlled internal access without exposing campus endpoints, and the backend runs as a modular PM2 cluster.
 
 ```mermaid
 flowchart LR
-  H["Helpdesk web app"] <--> RT[("Supabase Realtime")]
-  D["Public monitoring displays"] <--> RT
-  A["Android field-engineer app"] <--> RT
+  H["Helpdesk web portal"] <--> RT[("Supabase Realtime")]
+  D["Public monitoring displays<br/>desk, lab, walk-in queue"] <--> RT
+  A["Android field-engineer app<br/>offline queue, QR scan, push"] <--> RT
+  H --> API["Modular Express API<br/>RBAC, SLA jobs, email queue"]
+  A --> API
+  API --> DB[("Supabase PostgreSQL<br/>Row-Level Security")]
+  API -->|"FCM push"| A
+  API --> AUD[("Append-only audit log")]
   T["Cloudflare Tunnel"] -->|"controlled internal access"| H
 ```
 
@@ -303,7 +308,7 @@ The same few ideas recur across the systems above and the research.
 | Append-only ledgers and audit triggers | History must be traceable and corrections visible | NSU IPAM, ExpotextBD, Seller ERP |
 | Advisory locks plus immutable movements | Concurrent writers must not oversell inventory | Seller ERP |
 | Deterministic state machines | Illegal state transitions must be impossible | Seller ERP orders, NSU helpdesk tickets |
-| Realtime sync with reconciliation | Independent clients update at different times | NSU 1400 Helpdesk |
+| Realtime sync with reconciliation | Independent clients update at different times | NSU IT Support Center Enterprise Platform |
 | Outbox with retry and backoff | Slow external APIs must not stall core transactions | Seller ERP |
 | Evaluation under domain shift | A result is only trustworthy if the protocol is | MetaAlign, Fed-GLPF, TriFusionNet |
 
@@ -327,6 +332,7 @@ The same few ideas recur across the systems above and the research.
 |---|---|---|
 | ExpotextBD ERP | POS, inventory, procurement and stockholder-aware P&L with hardened RLS and MFA (client project) | React · Supabase · Tailwind |
 | Seller ERP | Orders, COD, couriers, returns, inventory locking and finance for ecommerce sellers (client project) | React · Supabase · PostgreSQL |
+| [NSU IT Support Center Enterprise Platform](https://github.com/almahmudpias/NSU-IT-Support-Center-Enterprise-Campus-IT-Operations-Platform) | Campus IT operations: SLA-enforced tickets, hardware lab, asset registry with QR, event AV workflow, offline Android app and display board | React · Node.js · Supabase · React Native |
 | [NSU Online Portal](https://github.com/almahmudpias/NSU-RDS) | Course registration, payments and role-based access for thousands of NSU users | PHP · MySQL, later Next.js · Stripe |
 | [Dhaka Metro Ticketing System](https://github.com/almahmudpias/Metro-Rail-QR-Ticketing-System) | QR-based Metro Rail booking, digital tickets and secure payments | MERN · MongoDB · Node.js |
 | [NSU IT Ticketing System](https://github.com/almahmudpias/IT_Ticketing_System) | Automated helpdesk ticket lifecycle with SLA-based prioritization and workflow testing | PHP · MySQL · Bootstrap |
