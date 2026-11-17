@@ -23,7 +23,7 @@ Systems  : Idempotency · Row-Level Security · Hash-Chained Ledgers · Distribu
 ## Where to start
 
 - **Engineering roles** → [Problems I have solved](#problems-i-have-solved): real constraints, the design that handled them, and the systems in production.
-- **Research and graduate programs** → [Research](#research) and [Publications](#publications): MetaAlign (accepted, FRUCT 2026) and the few-shot adaptation work behind it.
+- **Research , Ongoing and Recent Updated Work ** → [Research](#research) and [Publications](#publications): MetaAlign (accepted, FRUCT 2026) and the few-shot adaptation work behind it.
 - **Collaboration** → [Open questions](#open-questions-i-am-working-on), then [email me](mailto:abdullahpias09@gmail.com).
 
 Now: BSc CSE at North South University · IT Systems Assistant in the university's Office of IT · writing up federated and multimodal adaptation work · open to engineering and research opportunities and collaborations.
