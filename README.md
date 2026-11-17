@@ -26,8 +26,7 @@ Systems  : Idempotency · Row-Level Security · Hash-Chained Ledgers · Distribu
 - **Research , Ongoing and Recent Updated Work** → [Research](#research) and [Publications](#publications): MetaAlign (accepted, FRUCT 2026) and the few-shot adaptation work behind it.
 - **Collaboration** → [Open questions](#open-questions-i-am-working-on), then [email me](mailto:abdullahpias09@gmail.com).
 
-Now: BSc CSE at North South University · IT Systems Assistant in the university's Office of IT · writing up federated and multimodal adaptation work · open to engineering and research opportunities and collaborations.
-
+CSE graduate from North South University · Information Technology System Engineer at the Office of IT · Researching federated and multimodal learning.
 ---
 
 ## One idea behind both tracks
